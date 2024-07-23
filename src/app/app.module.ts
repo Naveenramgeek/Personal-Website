@@ -10,8 +10,6 @@ import { WelcomeComponent } from './home/welcome/welcome.component';
 import { QuoteComponent } from './home/quote/quote.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { AboutComponent } from './about/about.component';
-import { TopImageComponent } from './about/top-image/top-image.component';
-import { AboutInfoComponent } from './about/about-info/about-info.component';
 import { AboutSectionComponent } from './about/about-section/about-section.component';
 
 @NgModule({
@@ -24,8 +22,6 @@ import { AboutSectionComponent } from './about/about-section/about-section.compo
     QuoteComponent,
     HomeFooterComponent,
     AboutComponent,
-    TopImageComponent,
-    AboutInfoComponent,
     AboutSectionComponent
   ],
   imports: [
