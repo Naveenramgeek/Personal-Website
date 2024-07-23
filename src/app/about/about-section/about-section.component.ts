@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-about-section',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-section.component.css']
 })
 export class AboutSectionComponent implements OnInit {
-
-  constructor() { }
+  screenWidth = 0;
+  constructor(private elementRef: ElementRef) {this.screenWidth = window.innerWidth; }
 
   ngOnInit(): void {
   }
 
+  @HostListener('window:resize', ['$event'])
+    onResize(event: any) {
+      this.screenWidth = window.innerWidth;
+    }
 }

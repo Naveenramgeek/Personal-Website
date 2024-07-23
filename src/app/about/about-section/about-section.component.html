@@ -1,19 +1,21 @@
-<div class="about">
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="image">
-                <div class="card-body">
-                    <img class="card-img-top" src="assets/images/aboutpic.jpeg" alt="Card image cap">
-                </div>
-              </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="content">
-                <p class="about-title">About</p>
-                <div class="card-body">
-                  <p class="card-text">As a Software Engineer, I worked with a team of talented developers to deliver high-quality software products that meet the needs of our clients and users. I have a Bachelor of Engineering degree in Computer Science from PSG College of Technology, where I learned the fundamentals of programming, data structures, algorithms, and software engineering. I have also completed multiple certifications in Full stack java development, Angular, Docker, and Kubernetes, which demonstrate my skills and competencies in developing and deploying web applications using modern technologies and frameworks. I have over two years of work experience as a Software Engineer at Software AG, where I started as an Internship Trainee and progressed to Software Engineer I and then Software Engineer II. During this time, I have contributed to various micro-services, API development, and user interface design, using my skills such as Core Java, Spring Boot, Angular, and Git. I have also collaborated with other engineers, testers, and clients to ensure the quality, functionality, and usability of our software products. I am passionate about learning new technologies, solving complex problems, and creating innovative solutions that make a positive impact on the world. I am looking for opportunities to further develop my skills and competencies, and to work on challenging and meaningful projects that align with my values and goals.</p>
-                </div>
-              </div>
-        </div>
+<div [class]=" screenWidth > 992 ? 'max-about' : 'min-about'">
+  <div [class]=" screenWidth > 992 ? 'max-image' : 'min-image'">
+    <div class="image-body">
+      <img class="card-img-top" [src]="screenWidth > 992 ? 'assets/images/aboutside.jpg' : 'assets/images/circle_image.png'" alt="Card image cap">
     </div>
+  </div>
+  <div [class]=" screenWidth > 992 ? 'max-content' : 'min-content'">
+  <h2 class="about-title">WHO I AM</h2>
+  <div class="crd-body">
+    <p class="card-text">I am a dedicated Software Engineer with a strong foundation in Computer Science, holding a Bachelor's degree from PSG College of Technology. Over the past few years at Software AG, I've grown from an Internship Trainee to a Software Engineer II, specializing in Full stack Java development, Angular, Docker, and Kubernetes. My experience spans micro-services architecture, API development, and UI design, leveraging skills in Core Java, Spring Boot, Angular, and Git. I thrive in collaborative environments, working closely with cross-functional teams to deliver high-quality software solutions that meet client needs. I'm deeply passionate about learning new technologies and solving complex challenges to create impactful solutions. I'm now seeking opportunities to further enhance my skills and contribute to meaningful projects that align with my values and aspirations.</p>
+  </div>
+    <h2 class="about-title">ONE MORE THING</h2>
+  <div class="crd-body">
+    <p class="card-text">Beyond my professional endeavors, cooking is my another passion. I take immense pleasure in creating a diverse array of dishes, consistently receiving glowing praise from those who savor my culinary creations. My approach to cooking mirrors my approach to life: dedicated, organized, and driven by a structured timetable to ensure tasks are completed promptly and efficiently.
+
+      In addition to my technical problem-solving skills, I possess a deep understanding of human psychology, allowing me to empathize with others and respond appropriately to their needs. Many have found solace in confiding in me, and I have been privileged to offer practical solutions to individuals navigating challenging circumstances, thereby preventing potential issues from arising.
+
+      Overall, my life is characterized by a harmonious blend of professional excellence and compassionate support for others, both of which I approach with unwavering commitment and empathy.</p>
+  </div>
+</div>
 </div>

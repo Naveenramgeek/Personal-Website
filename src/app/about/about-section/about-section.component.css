@@ -1,15 +1,44 @@
-.about{
+.max-about, .min-about{
     padding: 2vw 2vw 2vw 2vw;
     margin-top: 3rem;
 }
+.min-about{
+background-image: url('../../../assets/images/bg.jpg');
+background-attachment: fixed;
+background-position: top;
+background-repeat: repeat, none;
+background-size: cover;
+}
+.max-about{
+display: flex;
+}
+
 .about-title{
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #61686b;
+    font-weight: 800;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
     text-align: center;
-    font-size:5rem;
-    white-space: pre-wrap;
-    margin-top: 0;
-    margin-bottom: -1rem;
   }
-  .content{
+
+  .card-text{
+  text-align: justify;
+  }
+  .max-content, .min-content{
     padding-left: 1.5vw;
   }
+.max-image, .max-content{
+width: 50%;
+}
+.min-image{
+padding: 0 25%;
+}
+p {
+		margin: 0 0 2em 0;
+	}
+
+.min-content{
+background-color: white;
+margin-top: 1rem;
+padding: 2rem;
+}
