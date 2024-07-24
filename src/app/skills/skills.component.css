@@ -1,0 +1,80 @@
+img{
+    width: 15rem; /* Set a specific width */
+    height: auto;
+}
+.odd{
+    background-color: #F4F6F6;
+    padding: 5rem;
+    display: flex;
+}
+.even{
+    background-color: #FDFEFE;
+    padding: 5rem;
+    display: flex;
+}
+.odd{
+    .right{
+        position: relative;
+        top: 5rem;
+        margin-left: 1rem;
+        margin-right: 5rem;
+        text-align: justify;
+    }
+}
+.title{
+    background-image: url('../../assets/images/bg.jpg');
+    padding: 6rem 3rem 3rem 3rem;
+    color: rgb(32, 28, 28);
+    font-weight: 800;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.even{
+    .left{
+        position: relative;
+        top: 5rem;
+        margin-left: 5rem;
+        margin-right: 1rem;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .odd, .even{
+        display: block;
+        width: 100%;
+        padding: 1rem;
+    }
+    .odd{
+        .right{
+            position: relative;
+            top: 0rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+    
+    .even{
+        .left{
+            position: relative;
+            top: 0rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+    p{
+        text-align: justify;
+    }
+    h2{
+        text-align: center;
+    }
+    .skill-image{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        width: 10rem; /* Set a specific width */
+        height: auto;
+    }
+  }

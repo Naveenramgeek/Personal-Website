@@ -1,0 +1,154 @@
+<app-nav-bar></app-nav-bar>
+<div class="title">
+    <h1>Know my skills</h1>
+</div>
+<div class="full-stack odd">
+    <div class="left skill-image">
+        <img class="full-stack-image" src="assets/images/fill-stack.png" alt="full-stacl">
+    </div>
+    <div class="right">
+        <h2 class="skill">Full-stack Development</h2>
+        <p class="description">Proficient in both front-end and back-end development using Java technologies. Capable of working on the entire stack of a web application, including database integration, server-side logic, and client-side interfaces.</p>
+    </div>
+</div>
+
+<div class="angular even">
+    <div *ngIf="screenWidth < 992">
+        <div class="left skill-image">
+            <img class="angular-image" src="assets/images/angular.png" alt="full-stacl">
+        </div>
+        <div *ngIf="screenWidth < 992" class="right">
+            <h2>Angular</h2>
+        <p>Experienced in building dynamic, single-page web applications using Angular framework. Skilled in creating responsive and interactive user interfaces.</p>
+    </div>
+    </div>
+
+    <div *ngIf="screenWidth > 992" class="left">
+        <h2>Angular</h2>
+        <p>Experienced in building dynamic, single-page web applications using Angular framework. Skilled in creating responsive and interactive user interfaces.</p>
+    </div>
+    <div *ngIf="screenWidth > 992" class="right skill-image">
+        <img class="angular-image" src="assets/images/angular.png" alt="full-stacl">
+    </div>
+</div>
+
+<div class="api odd">
+    <div class="left skill-image">
+        <img class="api-image" src="assets/images/api.png" alt="full-stacl">
+    </div>
+    <div class="right">
+        <h2 class="skill">API development</h2>
+        <p class="description">Skilled in designing, developing, and documenting RESTful APIs. Proficient in implementing API endpoints to enable communication between different software systems.</p>
+    </div>
+</div>
+
+<div class="microservice even">
+    <div *ngIf="screenWidth < 992">
+        <div class="left skill-image">
+            <img class="microservice-image" src="assets/images/microservice.png" alt="full-stacl">
+    </div>
+        <div *ngIf="screenWidth < 992" class="right">
+            <h2 class="skill">Microservices architecture</h2>
+        <p class="description">Experienced in designing and implementing microservices-based architectures. Able to decompose monolithic applications into smaller, independent services that communicate through APIs.</p>
+    </div>
+    </div>
+
+    <div *ngIf="screenWidth > 992" class="left">
+        <h2 class="skill">Microservices architecture</h2>
+        <p class="description">Experienced in designing and implementing microservices-based architectures. Able to decompose monolithic applications into smaller, independent services that communicate through APIs.</p>
+    </div>
+    <div *ngIf="screenWidth > 992" class="right skill-image">
+        <img class="microservice-image" src="assets/images/microservice.png" alt="full-stacl">
+    </div>
+</div>
+
+<div class="java odd">
+    <div class="left skill-image">
+        <img class="java-image" src="assets/images/java.png" alt="full-stacl">
+    </div>
+    <div class="right">
+        <h2 class="skill">Core Java</h2>
+        <p class="description">Proficient in Java programming language fundamentals and core libraries. Able to write efficient, maintainable code using object-oriented principles.</p>
+    </div>
+</div>
+
+<div class="spring even">
+    <div *ngIf="screenWidth < 992" >
+        <div class="left skill-image">
+            <img class="spring-image" src="assets/images/spring.png" alt="full-stacl">
+        </div>
+        <div class="right">
+            <h2 class="skill">Spring Boot</h2>
+        <p class="description">Experienced in developing Java applications using Spring Boot framework. Skilled in building stand-alone, production-grade Spring-based applications quickly and with minimal configuration.</p>
+    </div>
+    </div>
+
+    <div *ngIf="screenWidth > 992" class="left">
+        <h2 class="skill">Spring Boot</h2>
+        <p class="description">Experienced in developing Java applications using Spring Boot framework. Skilled in building stand-alone, production-grade Spring-based applications quickly and with minimal configuration.</p>
+    </div>
+    <div *ngIf="screenWidth > 992" class="right skill-image">
+        <img class="spring-image" src="assets/images/spring.png" alt="full-stacl">
+    </div>
+</div>
+
+<div class="ui odd">
+    <div class="left skill-image">
+        <img class="full-stack-image" src="assets/images/ui.png" alt="full-stacl">
+    </div>
+    <div class="right">
+        <h2 class="skill">UI design</h2>
+        <p class="description">Capable of designing intuitive and user-friendly interfaces. Experienced in creating wireframes, prototypes, and implementing UI designs that enhance user experience.</p>
+    </div>
+</div>
+
+<div class="docker even">
+    <div *ngIf="screenWidth < 992">
+        <div class="left skill-image">
+            <img class="full-stack-image" src="assets/images/docker.png" alt="full-stacl">
+    <</div>
+        <div class="right">
+            <h2 class="skill">Docker</h2>
+        <p class="description">Knowledgeable in containerization technology with Docker. Able to create, deploy, and manage containers that encapsulate applications and their dependencies for easy deployment and scalability.</p>
+    </div>
+    </div>
+    
+    <div *ngIf="screenWidth > 992" class="left">
+        <h2 class="skill">Docker</h2>
+        <p class="description">Knowledgeable in containerization technology with Docker. Able to create, deploy, and manage containers that encapsulate applications and their dependencies for easy deployment and scalability.</p>
+    </div>
+    <div *ngIf="screenWidth > 992" class="right skill-image">
+        <img class="full-stack-image" src="assets/images/docker.png" alt="full-stacl">
+    </div>
+</div>
+
+<div class="kubernetes odd">
+    <div class="left skill-image">
+        <img class="kubernetes-image" src="assets/images/kubernetes.png" alt="full-stacl">
+    </div>
+    <div class="right">
+        <h2 class="skill">Kubernetes</h2>
+        <p class="description">Familiar with Kubernetes for orchestrating containerized applications. Proficient in deploying, scaling, and managing containerized applications in a clustered environment.</p>
+    </div>
+</div>
+
+<div class="git even">
+    <div *ngIf="screenWidth < 992">
+        <div class="left skill-image">
+            <img class="git-image" src="assets/images/git.png" alt="full-stacl">
+        </div>
+        <div class="right">
+            <h2 class="skill">Git</h2>
+        <p class="description">Proficient in version control system Git. Experienced in managing source code repositories, branching, merging, and collaborating with teams using Git workflows.</p>
+    </div>
+    </div>
+
+    <div *ngIf="screenWidth > 992" class="left">
+        <h2 class="skill">Git</h2>
+        <p class="description">Proficient in version control system Git. Experienced in managing source code repositories, branching, merging, and collaborating with teams using Git workflows.</p>
+    </div>
+    <div *ngIf="screenWidth > 992" class="right skill-image">
+        <img class="git-image" src="assets/images/git.png" alt="full-stacl">
+    </div>
+</div>
+<app-home-footer></app-home-footer>
