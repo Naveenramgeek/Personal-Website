@@ -12,6 +12,7 @@ import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { AboutComponent } from './about/about.component';
 import { AboutSectionComponent } from './about/about-section/about-section.component';
 import { SkillsComponent } from './skills/skills.component';
+import { TrajectoryComponent } from './trajectory/trajectory.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SkillsComponent } from './skills/skills.component';
     HomeFooterComponent,
     AboutComponent,
     AboutSectionComponent,
-    SkillsComponent
+    SkillsComponent,
+    TrajectoryComponent
   ],
   imports: [
     BrowserModule,

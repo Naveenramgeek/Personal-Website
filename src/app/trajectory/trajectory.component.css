@@ -1,0 +1,57 @@
+.trag{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+}
+.title{
+    padding: 6rem 3rem 3rem 3rem;
+    color: #61686b;
+    font-weight: 800;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    text-align: center;
+}
+img{
+    width: 22rem;
+    height: auto;
+}
+.outer-div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text{
+    margin: 1rem;
+    justify-content: center;
+}
+p{
+    text-align: justify;
+}
+.key-text{
+    position: relative;
+    top: 3rem;
+}
+@media screen and (max-width: 950px) {
+    .trag{
+        display: block;
+        border: none;
+    }
+    img{
+        width: 15rem; /* Set a specific width */
+        height: auto;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    h5{
+        text-align: center;
+    }
+    .key-text{
+        top: 0;
+    }
+    .outer-div{
+        background-color: #F4F6F6;
+        padding-bottom: 2rem;
+    }
+}

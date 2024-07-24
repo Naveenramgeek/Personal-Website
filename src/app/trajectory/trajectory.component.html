@@ -1,0 +1,59 @@
+<app-nav-bar></app-nav-bar>
+<div class="title">
+    <h1>My Trajectory</h1>
+</div>
+<div class="outer-div">
+    <div class="professional trag">
+        <div class="professional-pic left image">
+            <img class="angular-image" src="assets/images/professional.jpg" alt="full-stacl">
+        </div>
+        <div class="professional-text text">
+            <div class="swe2">
+                <h5>Software Engineer II</h5>
+                <p>I improved data processing with REST APIs, converting incoming payloads into product models and enabling efficient data sharing between products, enhancing robustness through issue resolution.</p>
+            </div>
+            <div class="swe1">
+                <h5>Software Engineer I</h5>
+                <p>I led dashboard development, integrating Jest for UI testing and Spring Boot REST APIs with Elasticsearch queries for advanced data visualization. Guided selection and integration of a key visualization library, streamlining proof-of-concepts and final implementation.</p>
+            </div>
+            <div class="intern">
+                <h5>Internship Trainee</h5>
+                <p>I fixed UI issues in an Angular app, added a detailed info screen, and conducted Spring Boot proof-of-concepts for efficient REST API streamset collection, improving UI and data processes.</p>
+            </div>
+        </div>
+    </div>
+    <div class="attributes trag">
+        <div *ngIf="screenWidth < 992" class="attributes-pic right image">
+            <img class="angular-image" src="assets/images/key.PNG" alt="full-stacl">
+        </div>
+        <div class="key-text text">
+            <div class="key">
+                <h5>Key Attributes</h5>
+                <p>Dedication and commitment to delivering high-quality software solutions</p>
+                <p>Strong foundation in Computer Science</p>
+                <p>Passion for learning new technologies</p>
+                <p>Problem-solving skills and ability to tackle complex challenges</p>
+                <p>Collaborative team player</p>
+            </div>
+        </div>
+        <div *ngIf="screenWidth > 992" class="attributes-pic right image">
+            <img class="angular-image" src="assets/images/key.PNG" alt="full-stacl">
+        </div>
+    </div>
+    <div class="goal trag">
+        <div class="goal-pic left image">
+            <img class="angular-image" src="assets/images/goal.PNG" alt="full-stacl">
+        </div>
+        <div class="goal-text text">
+            <div class="goal">
+                <h5>Career goals</h5>
+                <p>Continuously learn and master advanced technologies beyond current expertise, such as cloud computing, machine learning, or blockchain, to stay at the forefront of industry trends.</p>
+                <p>Gain experience in leading cross-functional teams to deliver complex software projects, leveraging skills in project management and team collaboration.</p>
+                <p>Obtain advanced certifications in areas like DevOps, cybersecurity, or architecture to deepen technical expertise and validate skills in specialized domains.</p>
+                <p>Obtain advanced certifications in areas like DevOps, cybersecurity, or architecture to deepen technical expertise and validate skills in specialized domains.</p>
+                <p>Share knowledge and mentor junior developers or students, contributing to the growth of others and fostering a supportive community.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<app-home-footer></app-home-footer>
