@@ -1,9 +1,13 @@
+<!DOCTYPE html>
 <html>
   <head>
     <script type="text/javascript">
       var path = window.location.pathname;
-      var newPath = '/Personal-Website/' + path;
-      window.location.replace(newPath);
+      var repoName = '/Personal-Website/';
+      if (!path.startsWith(repoName)) {
+        var newPath = repoName + path;
+        window.location.replace(newPath);
+      }
     </script>
   </head>
   <body>
