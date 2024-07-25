@@ -3,11 +3,10 @@
   <head>
     <script type="text/javascript">
       var path = window.location.pathname;
-      if (!path.includes('/Personal-Website/')) {
-        var newPath = '/Personal-Website' + path;
+      var repoName = '/Personal-Website/';
+      if (!path.startsWith(repoName)) {
+        var newPath = repoName + path;
         window.location.replace(newPath);
-      } else {
-        window.location.replace('/Personal-Website/index.html');
       }
     </script>
   </head>
