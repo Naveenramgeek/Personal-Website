@@ -13,6 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { AboutSectionComponent } from './about/about-section/about-section.component';
 import { SkillsComponent } from './skills/skills.component';
 import { TrajectoryComponent } from './trajectory/trajectory.component';
+import { ContactComponent } from './contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,10 +28,12 @@ import { TrajectoryComponent } from './trajectory/trajectory.component';
     AboutComponent,
     AboutSectionComponent,
     SkillsComponent,
-    TrajectoryComponent
+    TrajectoryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],

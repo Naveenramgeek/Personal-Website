@@ -1,0 +1,21 @@
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-form-container {
+      padding: 0.5rem;
+    }
+  }
+  
